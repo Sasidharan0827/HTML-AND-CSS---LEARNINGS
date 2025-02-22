@@ -1,0 +1,176 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.images {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+img{
+    height: 600px;
+    width: 800px;
+    border-radius: 20px;
+
+}
+
+@media only screen and (min-width:1210px) and (max-width: 1920px) {
+    .desk {
+        display: block;
+      
+    }
+    .lap, .tab,.lphone,.phones,.small-phones,.smart-watch {
+        display: none;
+    }
+    .dk {
+        height: 600px;
+        width: 800px;
+        border-radius: 20px;
+    }
+    .one {
+        font-style: italic;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1209px) {
+    .lap {
+        display: block;
+       
+    }
+    .desk, .tab,.lphone,.phones,.small-phones,.smart-watch {
+        display: none;
+    }
+    .lp {
+        height: 600px;
+        width: 1000px;
+        border-radius: 20px;
+    }
+    .two {
+        font-style: italic;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 786px) and (max-width: 991px) {
+    .tab {
+        display: block;
+   
+    }
+    .desk, .lap,.lphone,.phones,.small-phones,.smart-watch {
+        display: none;
+    }
+    .tb {
+        height: 600px;
+        width: 1000px;
+        border-radius: 20px;
+    }
+    .three {
+        font-style: italic;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width:785px) {
+    .lphone{
+        display: block;
+        
+    }
+    .desk, .lap,.tab,.phones,.small-phones,.smart-watch  {
+        display: none;
+    }
+    .lp {
+        height: 600px;
+        width: 1000px;
+        border-radius: 20px;
+    }
+    .four {
+        font-style: italic;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width:599px) {
+    .phones{
+        display: block;
+   
+    }
+    .desk, .lap,.tab,.lphone,.small-phones,.smart-watch  {
+        display: none;
+    }
+    .ph{
+        height: 600px;
+        width: 1000px;
+        border-radius: 20px;
+    }
+    .five {
+        margin-left: 300px;
+        font-style: italic;
+        text-align: center;
+       
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:419px) {
+   
+    .small-phones{
+        display: block;
+ 
+    }
+    .desk, .lap,.tab,.lphone,.phones,.smart-watch  {
+        display: none;
+    }
+    .smp{
+        height: 100%;
+        width: 1000px;
+        border-radius: 20px;
+    }
+    .six {
+        margin-left: 300px;
+        text-align: center;
+        font-style: italic;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+}
+
+
+@media only screen and (min-width: 0px) and (max-width:319px) {
+    .smart-watch{
+    display: block;
+    }
+    .desk, .lap,.tab,.lphone,.phones, .small-phones {
+        display: none;
+    }
+    .srt{
+        height: 600px;
+        width: 1000px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .seven{
+
+        font-style: italic;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-left: 300px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+}
+
+

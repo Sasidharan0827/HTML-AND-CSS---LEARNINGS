@@ -1,0 +1,283 @@
+
+                   <----------------------------------DAY 1-------------------------------------------->
+
+
+<!DOCTYPE html>-------------->>this is document type ,used in html 5 , it is used to support the file for all browsers
+<html lang="en">------------>> Language declaration
+<head>
+    <meta charset="UTF-8">-------------->> UNICOCE TRANSFORMATION FORMAT(it converts the into  diffent languages)
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">-------------------->>Its used for adjusting the view it enables the media qurrey///
+    <title>Document</title>----------->> it show the title in loader in broser
+</head>
+<body>
+<------------these h tag have various size differences according to the size  we can use in our  projects ----------------->
+    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, blanditiis?</h1>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <h3>Lorem ipsum dolor sit amet.</h3>
+    <h4>Lorem ipsum dolor sit amet.</h4>
+    <h5>Lorem ipsum dolor sit amet.</h5>
+    <h6>Lorem ipsum dolor sit amet.</h6>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, nesciunt dolores tenetur eos soluta ipsa? Explicabo rerum odio alias illo!</p>
+</body>
+</html>
+
+<------------------------------------------------------------------------------------------------------------------------------------->
+                         
+
+
+                                 <----------------------------DAY 2--------------------------------->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>--------------------------------->> The head tag contains links and other thing that is needed for the body tag (ex:stylesheet&javascript)
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>------------------->> It shows the tile in load section on the browser
+    <link rel="icon" href="../IMAGES/flip.jpg">----------------------->>It shows the ico i the loading image 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <center><h1>God Of Football</h1></center> ---------->> the center tag is used to display the content in the center of the page 
+   <center>
+   <h2>Lionel Messi
+    Argentine footballer</h2> 
+   
+  ------------------------->> the <a> tag is called anchor tag it show the under line to the word it allows to give hyper link to the word
+
+  --------------------------->>href attribute is used to give the hyperlink
+
+ ---------------------------->>The img tag is used to insert a image to the html page it contains two attributes "src "and "alt"
+
+----------------------------->>The "src" is used give the link of the image and the "alt" is used to give the seconady image path is the "src" is failed or any mistakes in it then it takes the "alt" image path 
+
+
+    <a href="https://en.wikipedia.org/wiki/Lionel_Messi" target="_blank"><img src="../IMAGES/messi.jpg" alt=""  height="300px"width="30%"></a>
+    <a href="https://en.wikipedia.org/wiki/Lionel_Messi" target="_blank"><img src="../IMAGES/messi.jpg" alt=""  height="300px"width="30%"></a>
+    <a href="https://en.wikipedia.org/wiki/Lionel_Messi" target="_blank"><img src="../IMAGES/messi.jpg" alt=""  height="300px"width="30%"></a>
+<hr>
+
+--------------------------------->> The <hr> tag indicates the horizontal line 
+
+
+---------------------------------->> The <iframe> tag is reverse of <img> tag 
+
+---------------------------------->> In the <iframe> takes a small frame (ex:photoframe) we can put the open source website in it and also we can able to adjust the size of the window with the height and witdh 
+
+
+------------------------------------>> maximum we use the <iframe> to display the map like that things 
+
+ 
+<iframe src="https://en.wikipedia.org/wiki/Lionel_Messi" frameborder="0" width="100%" height="500px"></iframe>
+<hr>
+<a href="https://www.britannica.com/biography/Lionel-Messi" target="_blank"><h2>see more about Messi</h2></a>
+<hr>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15549.975793205864!2d80.2513526!3d13.0041863!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x276fa5ac77ab8511%3A0xb984c889d9a6746f!2sZukun!5e0!3m2!1sen!2sin!4v1731048591265!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</center>
+</body>
+</html>
+            
+
+                         <----------------------------------------------------------DAY 3---------------------------------------------------------------->
+
+
+
+
+------------------------------------>List item tag is used to define each item of a list. Once we define list items with the <li> tag, 
+                                    The list appears in Web browsers in the bulleted form (by default).
+                                    It is used inside both ordered and unordered lists.
+
+
+
+   <li>...............
+    ..................
+    ..................
+    ...............<li>
+
+
+------------------------------------>value: The value attribute of the<li> tag is used to specify the value of the first item. 
+                                    The value must be a number and this can be used in the case of an ordered list only. 
+                                    The subsequent list items will increment the value from the number.
+
+    <li  value = number>
+
+
+
+
+----------------------------------->Sample Program:
+                                     
+
+                                    <ol type="I">
+                                    <li value="3">third item</li>
+                                    <li>fourth item</li>
+                                    <li>fifth item</li>
+                                    </ol>
+                                
+
+                                    program output:
+                                
+           
+                                    In the output there will be roman letters insted of number for more explanation just hit the code on compiler
+
+
+
+
+
+------------------------------------>unordered list in html is described as <ul>
+------------------------------------>An unordered list defines a list of items in which the order of the items does not. Or in other words, an unordered list tag is used to create an unordered list. It is also known as bulleted list. In an unordered list each element in the list is defined using <li> tag. 
+
+There are 4 types of style in unordered lists: 
+
+● type=”disc”- sets the list item marker to a bullet (default) 
+
+○ type=”circle”- sets the list item marker to a circle 
+
+■ type=”square”- sets the list item marker to a square 
+
+     type=”none”- the lists items will not be marked
+
+Syntax:
+
+
+<ul> content </ul> 
+
+
+Attributes of an unordered list:
+
+List-style-type: This attribute is used to specify the bullet style that will be used as the list item marker. The value of this attribute is None/disc(default)/circle/square.
+
+Syntax:
+
+
+<ul style=”list-style-type:square|disc|none;”>
+
+
+
+
+
+
+<h2>Example of unordered list in circle</h2>
+    <ul style="list-style-type:circle;">
+        <li>sachin</li>
+        <li>manoj</li>
+    </ul>
+    <h2>Example of unordered list in disk</h2>
+    <ul style="list-style-type:disk;">
+        <li>Priya</li>
+        <li>Mohit</li>
+    </ul>
+    <h2>Example of unordered list in square</h2>
+    <ul style="list-style-type:square;">
+        <li>Pinky</li>
+        <li>Punam</li>
+    </ul>
+    <h2>Example of unordered list in none</h2>
+    <ul style="list-style-type:none;">
+        <li>Mukti</li>
+        <li>Dhama</li>
+    </ul>
+
+
+
+               <--------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+------------------------------------->ordered list in html is describerd as <ol>
+------------------------------------->ordered list is denoted by serial numbers <ol>
+------------------------------------->An ordered list defines a list of items in which the order of the items are matters. An ordered list is also called a number list. The ordering is given by a numbering scheme, using Arabic numbers, letters, Roman numerals. Or in other words, ordered list tag is used to create an ordered list.
+
+Different ways to number the ordered lists using the type attribute:
+
+type=”1″- The list items will be numbered with numbers (default) 
+type=”A”- The list items will be numbered with uppercase letters 
+type=”a”- The list items will be numbered with lowercase letters 
+type=”I”- List items will be numbered with uppercase Roman numbers 
+type=”i”- The list items will be numbered with lowercase Roman numbers
+
+
+
+Syntax--->        
+<ol> content </ol>
+
+------------------------------------------> Odered list Type 1(Default) Example :
+
+
+                                          <ol>
+                                          <li>gojo</li>
+                                          <li>sukuna</li>
+                                          <li>hitadori</li>
+                                          <li>sai</li>
+                                          <li>hasira</li>
+                                          </ol>
+
+ type: This attribute is used to specify the type of list item maker. The value of this attribute is decimal(Default)/lower-roman/upper roman/lower-alpha/upper alpha
+Syntax---->
+<ol type = “1|b|A|i|I”>
+
+----------------------------------------->Odered list Type 2(content ) Example:
+                                            <h1>Example of ordered list whose type = "A"</h1>
+                                            <ol type="A">
+                                            <li>Sachin</li>
+                                            <li>Manoj</li>
+                                            </ol>
+
+
+
+
+Syntax---->
+<ol reversed>
+
+----------------------------------------->Odered list Type 3(Reversed) Example :
+                                          <h1>Example of reverse ordered list</h1>
+                                         <ol reversed>
+                                         <li>Parth</li>
+                                         <li>sujay</li>
+                                         </ol>
+
+
+
+Syntax------>
+<ol start = “number”>
+
+------------------------------------------->Odered list Type 4(number) Example:
+                                             <h1>Example of ordered list start from 10</h1>
+                                             <ol start = "10">
+                                             <li>Pushpa</li>
+                                             <li>Purvi</li>
+                                             </ol>
+
+                  <------------------------------------------------------------------------------------------------------------------------------------------------------->
+ Description list is a list in which each term contains its description. This tag contains <dt> and <dd> tag.
+
+<dt></dt>: This tag is used to define the name or term
+<dd><dd>: this tag is used to describe the term.
+Syntax---->
+<dl> content </dl>
+
+
+          <h2>Example of description list</h2>
+         <dl>
+        <dt>Python:</dt>
+        <dd>It is a programming language</dd>
+        <dt>C++:</dt>
+        <dd>It is also a programming language</dd>
+        </dl>
+
+
+
+<------------------------------------------------------------------------------------------------------------------------------------>
+
+
+                                                       DAY_3
+ <table> ---------------------> table tag is used to declare a table in HTMl
+<tr>     ---------------------> <tr> tr tag is used to represent the table row 
+<td>     ---------------------> td stands for table table data it used to denote the colums in the row 
+
+
+
+
+
+
+

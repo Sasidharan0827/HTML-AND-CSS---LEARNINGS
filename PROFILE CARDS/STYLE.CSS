@@ -1,0 +1,240 @@
+
+/** 
+Hello Future Developer Thanks for Using learningrobo.com, 
+Check our website Regularly For New Snippets Post.
+
+Share & Support us
+**/
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0%;
+    height: 100vh;
+}
+.onnav{
+    height: 40px; width: 150px; margin-left: 40px; border-radius: none; margin-top: 30px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+ 
+}
+.parent{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.head1{
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head1 h1{
+    margin: 0%;
+    font-weight: bolder;
+}
+.head2{
+    height: 70vh;
+    background-color: #aaaaaa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #C9CCD3;
+    background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: lighten;
+}
+.box1{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px grey;
+    padding:10px;
+}
+.box2{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px grey;
+    padding:10px;
+}
+.box3{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px grey;
+    padding:10px;
+}
+.pic{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: -50px auto;
+    box-shadow: 5px 5px 20px grey;
+}
+.image{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 10px;
+    margin-top: 15px;
+}
+span{
+    margin: 0%;
+    font-weight: bolder;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+p{
+    margin: 0px 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.desg{
+    font-weight: bold;
+    color: grey;
+}
+.logo{
+    width: 50%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.icon1{
+    width: 50px;
+    height: 50px;
+    background-color: #1D9BF0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px grey;
+}
+.icon2{
+    width: 50px;
+    height: 50px;
+    background-color: #B7081B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px grey;
+}
+.icon3{
+    width: 50px;
+    height: 50px;
+    background-color: tomato;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px grey;
+}
+@media screen and (max-width:1024px){
+    .container{
+        height: max-content;
+    }
+    .parent{
+        height: fit-content;
+    }
+    .head1{
+        height: 30vh;
+    }
+    .head2{
+        justify-content: start;
+        height: fit-content;
+        flex-wrap: wrap;
+        gap:60px;
+        padding:60px 30px;
+    }
+    .box1{
+        width:45%;
+        height: max-content;
+    }
+    .box2{
+        width:45%;
+        height: max-content;
+    }
+    .box3{
+        width:45%;
+        height: max-content;
+    }
+    .logo{
+        height: fit-content;
+        width: fit-content;
+        column-gap: 10px;
+    }
+    .icon1,.icon2,.icon3{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media screen and (max-width:630px){
+    .container{
+        height: fit-content;
+    }
+    .parent{
+        height: fit-content;
+    }
+    .head2{
+        flex-direction: column;
+        row-gap: 70px;
+        background-color: white;
+    }
+    .box1{
+        height: 350px;
+        width: fit-content;
+    }
+    .box2{
+        height: 350px;
+        width: fit-content;
+    }
+    .box3{
+        height: 350px;
+        width: fit-content;
+    }
+}
+.credit a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+.credit{
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana,Geneva,Tahoma,sans-serif;
+}
+.credit span{
+    color:tomato;
+    font-size:20px;
+}
+

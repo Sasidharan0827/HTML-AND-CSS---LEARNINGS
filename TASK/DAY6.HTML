@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+   
+     display: grid;
+     /* grid-template-columns: repeat(auto-fit, minmax(50px,1fr)); */
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+   
+  gap: 50px;
+    }
+
+
+    
+    .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+</style>
+<body>
+    
+
+    <div class="container">
+
+            <div class="p1">1</div>
+            <div class="p2">2</div>
+            <div class="p3">3</div>
+            <div class="p4">4</div>
+            <div class="p5">5</div>
+            <div class="p6">6</div>
+            <div class="p7">7</div>
+            <div class="p8">8</div>
+            <div class="p9">9</div>
+            <div class="p10">10</div>
+     
+   
+
+    </div>
+</body>
+</html>

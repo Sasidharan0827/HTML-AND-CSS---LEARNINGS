@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.ball{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: yellow;
+}
+.bounce{
+    animation: bounce 3.09s linear 0s infinite alternate;
+}
+.bounceone{
+    animation: bounceone 1.03s ease-in 0s infinite alternate;
+}
+@keyframes bounce {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(calc(100vw - 10vmin));
+    }
+}
+@keyframes bounceone{
+    from{
+        transform: translatey(0px);
+    }
+    to{
+        transform: translatey(calc(100vh - 10vmin));
+    }
+}
+.ball2{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgb(255, 119, 0);
+}
+.bounce2{
+    animation: bounce2 3.08s linear 0s infinite alternate;
+}
+.bouncetwo{
+    animation: bouncetwo 1.03s ease-in 0s infinite alternate;
+}
+@keyframes bounce2 {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(calc(100vw - 10vmin));
+    }
+}
+@keyframes bouncetwo{
+    from{
+        transform: translatey(0px);
+    }
+    to{
+        transform: translatey(calc(100vh - 10vmin));
+    }
+}
+.ball3{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgb(0, 255, 34);
+}
+.bounce3{
+    animation: bounce3 3.07s linear 0s infinite alternate;
+}
+.bouncethree{
+    animation: bouncethree 1.03s ease-in 0s infinite alternate;
+}
+@keyframes bounce3 {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(calc(100vw - 10vmin));
+    }
+}
+@keyframes bouncethree{
+    from{
+        transform: translatey(0px);
+    }
+    to{
+        transform: translatey(calc(100vh - 10vmin));
+    }
+}

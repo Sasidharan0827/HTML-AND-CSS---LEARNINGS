@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #87ceeb; /* Sky color */
+  overflow: hidden;
+}
+
+.road {
+  width: 100%;
+  height: 200px;
+  background: #333; /* Road color */
+  position: relative;
+  overflow: hidden;
+}
+
+.car {
+  position: absolute;
+  bottom: 50px;
+  left: -200px; /* Start position off-screen */
+  width: 200px;
+  height: 100px;
+  background: red;
+  border-radius: 10px;
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.2);
+  animation: drive 5s linear infinite; /* Moves the car across the screen */
+}
+
+.car::before,
+.car::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  width: 40px;
+  height: 40px;
+  background: black;
+  border-radius: 50%;
+  animation: rotate 0.5s linear infinite; /* Wheel rotation animation */
+}
+
+.car::before {
+  left: 20px; /* Front wheel */
+}
+
+.car::after {
+  right: 20px; /* Rear wheel */
+}
+
+@keyframes drive {
+  0% {
+    left: -200px; /* Off-screen start */
+  }
+  100% {
+    left: 100vw; /* Moves across the screen */
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+</style>
+<body>
+    <div class="road">
+        <div class="car"></div>
+      </div>
+      
+</body>
+</html>

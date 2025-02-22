@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+       .element{
+           height : 200px;
+           width : 200px;
+           background-color: rgb(115, 115, 252);
+           transition : 1s;
+           /* transform: translate(200px); */
+        
+       }
+       .element:hover{
+        background-color: yellow;
+        transform :rotate3d(1, 1, 1, 45deg);
+        /* transform: scale(0.5); */
+        /* transform: translateY(200px); */
+        
+       } 
+       .rocket{
+        width : 200px;
+        height: 220px;
+        transform : rotate3d(1,1,1, 60deg);
+        margin-top: 85vh;
+        transition : 8s;
+       }
+
+       .rocket:hover{
+        /* transform : rotateX(50deg); */
+        transform : translateY(-500px);
+       }
+    </style>
+</head>
+<body style="background-color: skyblue;">
+    <!-- <div class="element"></div> -->
+     <img src="../../../IMAGES/Rocket.png" class="rocket"/>
+</body>
+</html>
